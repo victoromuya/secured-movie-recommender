@@ -1,0 +1,69 @@
+.navbar{
+	border-radius: 0;
+	min-height: 80px;
+}
+.container-fluid{
+	margin-top: 18px;
+}
+.navbar-nav>li>a{
+	font-size: 18px;
+}
+.navbar-brand{
+	font-size: 22px;
+	font-family: inherit;
+	font-style: italic;
+	font-weight: 700;
+}
+.navbar-inverse .navbar-brand{
+	color:#e4aa0b;
+}
+.navbar-inverse .navbar-nav>li>a{
+		color: #fff;
+}
+h2{
+	margin-left: 60px;
+}
+
+#social-fb:hover {
+     color: #e4aa0b;
+ }
+ #social-tw:hover {
+     color: #e4aa0b;
+ }
+
+ #social-em:hover {
+     color: #f39c12;
+ }
+ #social-git:hover{
+ 	color:black;
+ }
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    outline: none;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    width: 400px;
+}
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 155px; /* .push must be the same height as .footer */
+}
+
+/*.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumbnail {
+  height: 100%;
+}*/
+
