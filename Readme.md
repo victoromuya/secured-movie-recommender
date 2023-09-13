@@ -1,18 +1,18 @@
 # Django based movie recommender system
-> https://awesome-movie-recommender.herokuapp.com
 
-![GitHub stars](https://img.shields.io/github/stars/rajaprerak/movie_recommender) 
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/rajaprerak/movie_recommender/commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](https://awesome-movie-recommender.herokuapp.com/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+![GitHub stars](https://img.shields.io/github/stars/victoromuya/secured-movie-recommender) 
+
 
 ### Website Preview
 #### Home Page
-<img src="website_images/HomePage.png" width="900">
+<img src="shots/home.PNG" width="900">
+
+#### Signin Page
+<img src="shots/signin.PNG" width="900">
+
 
 #### Detail Page
-<img src="website_images/DetailPage.png" width="900">
-
+<img src="shots/detail.PNG" width="900">
 ----
 
 ## Installation 📦
@@ -37,6 +37,7 @@ $ python manage.py runserver
 * User can give rating to the movies.
 * User can add movie to their watch list.
 * User can get movie recommendation (Recommendation algorithm (Collaborative Filtering) which suggests new movies based on the ratings given by user.)
+* Rating has been privatized using pyDP.
 ---
 
 ## Algorithm
@@ -72,17 +73,6 @@ $ python manage.py runserver
 
 - 🔃 Create a new pull request.
 
-## Team ✨
 
-| <a href="https://rajaprerak.github.io" target="_blank">**Prerak Raja**</a>
-| :---: |
-| [![Prerak Raja](https://github.com/rajaprerak.png?size=100)](https://rajaprerak.github.io)    
-| <a href="https://github.com/rajaprerak" target="_blank">`github.com/rajaprerak`</a>
-
-
-## License
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
                                                                                                                                                                                                                                                                         
